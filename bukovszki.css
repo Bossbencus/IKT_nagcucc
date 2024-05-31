@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-size: cover;
+      background-image: url(bukovszki\ kepek/hatter.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      color: rgb(0, 0, 0);
+  }
+  
+  #tartalom {
+    background-color: rgba(131, 131, 131, 0.6);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 40px;
+    width: 930px;
+  }
+  
+  p {
+    text-indent: 25px;
+    text-align: justify;
+    font-size: 20px;
+  }
+  
+  .keret {
+    width: 380px;
+    float: right;
+    padding: 0px 5px 5px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .keret img {
+    width: 390px;
+    position: relative;
+    left: -5px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+  }
+  
+  h1,
+  h2 {
+    font-variant: small-caps;
+    font-style: italic;
+  }
+  
+  p.imgtitle {
+    font-size: 1.1em;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+    line-height: 130%;
+  }
+  
+  table {
+    border: 3px solid #444444;
+  }
+  
+  table {
+    margin-right: 20px;
+    background-color: rgba(227, 225, 233, 0.3);
+      border-collapse: collapse;
+  }
+  th{
+      background-color: #474747;
+      color: white;
+  }
+  th, td{
+       border: 1px solid black;
+      padding: 15px;
+      text-align: center;
+  }
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  a:hover{
+      text-decoration: none;
+      color: rgba(20, 117, 182, 0.986);
+  }
+  

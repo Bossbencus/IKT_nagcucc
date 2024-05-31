@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins",sans-serif;
+}
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+.egy{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12, 12, 14, 0.89),rgb(62, 62, 65));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.ketto{
+    text-align: center;
+}
+.ketto h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.ketto a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.ketto h1:hover{
+    -webkit-text-stroke: 2px red;
+    color: transparent;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+}
+::webkit-scrollbar-track{
+    background-color: red;
+    width: 50px;
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
+.section{
+    padding: 100px 15px;
+    background-image: linear-gradient(rgba(12, 12, 14, 0.89),rgb(62, 62, 65));
+}
+.cim{
+    font-size: 8rem;
+    text-align: center;
+    margin: 5rem 0;
+}
+.tartalom{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.tartalom::before{
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background-color: red;
+    left: calc(50% - 1px);
+}
+.tartalom-keret{
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+.tartalom-keret:last-child{
+    margin-bottom: 0;
+}
+.tartalom-keret:nth-child(odd){
+    padding-right: calc(50% + 30px);
+    text-align: right;
+}
+.tartalom-keret:nth-child(even){
+    padding-left: calc(50% + 30px);
+}
+.tartalom-formazas{
+    height: 21px;
+    width: 21px;
+    background-color: #000;
+    box-shadow: 0 0 25px red;
+    box-shadow: 0 0 50px red;
+    position: absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 10px;
+}
+.tartalom-cim{
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    margin: 6px 0 15px;
+}
+.tartalom-szoveg{
+    background-color: #000;
+    border: 3px solid red;
+    padding: 30px 50px;
+    border-radius: 4rem;
+    box-shadow: 0 0 10px red;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.tartalom-szoveg:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 25px red;
+}
+.tartalom-szoveg h3{
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+.tartalom-szoveg p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+::webkit-scrollbar-track{
+    background-color: #000;
+    width: 50px;
+}
+.navbar a{
+    font-size: 1.8rem;
+    color: #fff;
+    margin-left: 4rem;
+    font-weight: 500;
+    transition: 0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+.navbar a:hover,
+.navbar .active{
+    color: red;
+    border-bottom: 3px solid var(--main-color);
+}

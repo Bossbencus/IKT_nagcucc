@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+html body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+.hatter{
+    width: 100%;
+    height: 100vh;
+    background-image:url(Fegyveres\ kepek/hatter.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-jel{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.sor{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.asd{
+    flex-basis: 30%;
+}
+h1{
+    color: #fff;
+    font-size: 100px;   
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.kartya{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px; 
+    background-image: url(Fegyveres\ kepek/kep-1.jpg);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.kartya1{
+    background-image: url(Fegyveres\ kepek/kep-1.jpg);
+}
+.kartya2{
+    background-image: url(Fegyveres\ kepek/kep-2.webp);
+}
+.kartya3{
+    background-image: url(Fegyveres\ kepek/kep-3.jpg);
+}
+.kartya4{
+    background-image: url(Fegyveres\ kepek/kep-4.webp);
+}
+.kartya:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+.felirat1{
+    height: 100px;
+    width: 360px;
+    cursor: default;
+    background:linear-gradient(135deg, #808080, #161414, #FFFFFF);
+    border-radius: 10px;
+    animation: animate 1.5s linear infinite;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+.felirat1 .felirat2 , .felirat1 span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.felirat1 .felirat2{
+    z-index: 999;
+    background: #1b1b1b;
+    height: 85px;
+    width: 345px;
+    border-radius: 6px;
+    text-align: center;
+}
+.felirat1 .felirat2 #felirat{
+    line-height: 85px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background:linear-gradient(135deg, #150e81, #0e90b1, #FFFFFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 1.5s linear infinite;
+}
+@keyframes animate{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.felirat1 span{
+    height: 00%;
+    width: 100%;
+    background: inherit;
+    border-radius: 10px;
+}
+.felirat1 span:first-child{
+    filter: blur(10px);
+}
+.felirat1 span:last-child{
+    filter: blur(20px);
+}
